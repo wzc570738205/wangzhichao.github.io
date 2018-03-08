@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    html,body {
+        width: 100%;
+        height: 100%;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    section {
+        flex: 1;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    header {
+        background: indianred;
+        width: 100%;
+        height: 50px;
+    }
+    footer {
+        background: indigo;
+        width: 100%;
+        height: 50px;
+    }
+    p {
+        height: 50px;
+        width: 150%;
+    }
+    </style>
+</head>
+<body>
+    <header>头部</header>
+    <section>
+        <p>这是可以滚动的</p>
+        <p>这是可以滚动的</p>
+        <p>这是可以滚动的</p>
+        <p>这是可以滚动的</p>
+        <p>这是可以滚动的</p>
+        <p>这是可以滚动的</p>
+        <p>这是可以滚动的</p>
+        <p>这是可以滚动的</p>
+        <p>这是可以滚动的</p>
+        <p>这是可以滚动的</p>
+    </section>
+    <footer>底部</footer>
+<!--     HTML+CSS:
+1.css盒模型：标准盒模型 ==> content、padding、margin、border。IE盒模型 ==> content（包括border、padding）、padding、margin、border。
+2.让容器垂直居中的方法: vertical-align:midden ==>dispay：flex;align-items：center；
+3.超链接点击后不会出现默认样式：:link,:visited,:hover,:active ==>color:none;background:none;.....
+4.rgba()和opacity的区别；前者只会作用于父集，后着会作用于元素内所有元素。
+5.css优先级 !important比内联样式优先级高。
+JAVASCRIPT:
+1.基本数据类型：number、object、布尔、string、undefined、null、
+2、强制类型转换parseInt、parseFloat、Number（）隐式类型转换 == 。
+3.split() join() 的区别；前者是切割成数组的形式，后者是将数组转换成字符串
+4.数组方法pop() push() unshift() shift()Push()尾部添加 pop()尾部删除Unshift()头部添加 shift()头部删除
+.a>.b|c
+.a>.b|bem|c -->
+</body>
+</html>
+<script>
+  /*   var params1 = {    
+                "location":"$scope.selectModel.location",
+                 "keeperPhone":"$scope.keeperPhone",
+                 "keeperId":"AH213353",
+                 "keeperName":"$scope.keeperName",
+               
+             };
+    // var a = `{"location":"$scope.selectModel.location","keeperPhone":"$scope.keeperPhone","keeperId":"AH213353","keeperName":"$scope.keeperName"}`
+    //  var aa = a.replace(/location/g,"abc")
+    //  console.log(aa)
+    // console.log(JSON.stringify(params1));
+    // console.log(JSON.parse(aa))
+    var a = Object.create(params1);
+   // a.name = "wzc";
+   console.log(a);
+    console.log(a.location);
+    console.log(a.keeperPhone); */
+</script>
