@@ -35,10 +35,28 @@
         height: 50px;
         width: 150%;
     }
+    .parent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        overflow: hidden;
+        border: 1px solid #000;
+    }
+    .child{
+        width: 50px;
+        height: 50px;
+        margin: 50px;
+        background: burlywood;
+    }
     </style>
 </head>
 <body>
-    <header>头部</header>
+    <div class="parent">
+        <div class="child"></div>
+    </div>
+    <time>2017-23-2</time>
+    <!-- <header>头部</header>
     <section>
         <p>这是可以滚动的</p>
         <p>这是可以滚动的</p>
@@ -51,7 +69,7 @@
         <p>这是可以滚动的</p>
         <p>这是可以滚动的</p>
     </section>
-    <footer>底部</footer>
+    <footer>底部</footer> -->
 <!--     HTML+CSS:
 1.css盒模型：标准盒模型 ==> content、padding、margin、border。IE盒模型 ==> content（包括border、padding）、padding、margin、border。
 2.让容器垂直居中的方法: vertical-align:midden ==>dispay：flex;align-items：center；
